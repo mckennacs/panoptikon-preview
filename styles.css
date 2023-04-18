@@ -1,0 +1,289 @@
+/* 
+https://colorhunt.co/palette/ab46d2ff6fb555d8c1fcf69c
+    Generally
+    Purple - AB46D2
+    Pink - FF6FB5
+    Green/Aqua - 55D8C1
+    Yellow - FCF69C
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;700;800;900&family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*    
+font-family: 'Barlow', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#read-more {
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 40vh;
+    opacity: 90%;
+}
+
+#arrow {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    color: #fff;
+}
+
+
+#h1-header {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    margin: 1% auto;
+    font-size: 7vw;
+    font-size: clamp(2rem, 6vw, 5rem);
+    text-align: center;
+    color: #fff;
+    letter-spacing: clamp(0.5rem, 1rem, 3rem);
+    /* transform: translateX(-7%); */
+    /* z-index: 5; */
+    background-color: #000000cf;
+    /* background: repeating-radial-gradient(circle at 50% 50%, #55d8c069 53%, #aa46d267 68%), linear-gradient(0deg, #000000ca 5%, #ffffff6b 83.48%); background-blend-mode: overlay, darken; */
+    padding: 1%;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-top: 30vh;
+    /* margin-bottom: 20vh; */
+}
+
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+p {
+    color: #fff;
+}
+
+main a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #fff;
+    opacity: 80%;
+}
+
+main {
+    margin: auto;
+}
+
+figure video {
+    /* align-self: center; */
+    margin: 5% auto;
+    width: 100%;
+    max-width: fit-content;
+    opacity: 70%;
+    transition: 0.3s;
+    border: 10px solid rgba(255, 255, 255, 0);
+    background-color: #000;
+    background-size: cover;
+    padding: 1%;
+    outline: 0.5rem solid rgba(255, 255, 255, 0.571);
+    /* outline-offset: -1rem; */
+}
+
+/* figure:hover {
+    opacity: 50%;
+} */
+
+figure:hover video{
+    opacity: 100%;
+    border: 5px solid white;
+    transition: all ease-in-out 0.3s;
+    padding: 3%;
+    outline-offset: 0.5rem;
+    outline: 0.5rem solid rgb(255, 255, 255);
+    /* transition-delay: 500ms; */
+}
+
+.gradient-waves {
+    /* Gradients from https://gradienta.io/ */
+    background: linear-gradient(145.4deg, rgba(255, 255, 255, 0) 4%, #55d8c1 36%, rgba(255, 255, 255, 0) 47%, rgba(252, 244, 131, 0.41) 60%),
+    repeating-linear-gradient(295.14deg, rgba(185, 88, 223, 0.73) 21%, #ff6fb5 47%, #fcf69c 66%, rgba(255, 255, 255, 0) 93.24324324324324%),
+    repeating-radial-gradient(circle at 50% 50%, #3dffa1 0%, rgba(255, 255, 255, 0) 10%, rgba(155, 255, 107, 0.41) 24%, rgba(165, 49, 210, 0.37) 42%, rgba(94, 210, 49, 0.39) 54%, rgba(255, 255, 255, 0) 70%),
+    repeating-linear-gradient(196.38deg, #89ff88 18.13%, #ff6fb5 52%, rgba(255, 255, 255, 0) 94%), repeating-conic-gradient(from 320.63deg at 50% 50%, #55d8c1 0%, rgba(255, 255, 255, 0) 29%, #ff56a8 49%, #a531d2 92%),
+    linear-gradient(174.08deg, #fcf69c 0%, #ff6fb5 21.67%, #55d8c1 65%, #ab46d2 88%),
+    linear-gradient(164.52deg, #fe88ff 0%, rgba(255, 255, 255, 0) 30%, #55d8c1 58%, #fcf483 89%),
+    radial-gradient(circle closest-corner at 50% 50%, #e57dff 8%, rgba(86, 255, 173, 0.53) 31%, rgba(255, 255, 255, 0) 48%, rgba(255, 255, 255, 0) 65%, #9ca2fc 79%);
+    background-blend-mode: soft-light, saturation, soft-light, soft-light, soft-light, soft-light, normal, saturation;
+    /* opacity: 90%; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+figure.gradient-waves:hover {
+    background-blend-mode: soft-light, darken, difference, soft-light, soft-light, soft-light, normal, saturation;
+    transition: all ease-in-out 0.3s;
+}
+
+
+/* figure.gradient-waves:hover {
+    opacity: 50%;
+} */
+
+.text-box {
+    /* border: 3px solid white; */
+    padding: 5%;
+    font-weight: 400;
+    line-height: 3;
+}
+
+.spiral {
+    background: linear-gradient(217.06deg, #000000 16%, rgba(255, 255, 255, 0) 57%, rgba(0, 0, 0, 0.58) 93%), repeating-radial-gradient(circle at 50% 50%, #000000 0%, #34ff97 7%, #404040 12.95%), linear-gradient(152.8deg, #ff6fb5 0%, #a531d2 74%); background-blend-mode: color-burn, color-dodge, hue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#gradient-fig {
+    /* min-height: 30vh;
+    min-width: 30vw; */
+    /* border: 3px solid #fff; */
+    /* width: 500px; */
+    display: flex;
+    align-items: center;
+}
+
+#spiral-fig {
+    /* min-height: 30vh;
+    min-width: 30vw; */
+    /* width: 100%; */
+    /* border: 3px solid #fff; */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#nav-div {
+    background-color: #000000db;
+    padding: 1vh;
+    backdrop-filter: blur(10px);
+}
+
+.dropdown-menu-dark {
+    background-color: #000;
+    backdrop-filter: blur(10px);
+}
+
+.navbar {
+    height: 10%;
+    padding-top: 0;
+}
+
+/* section {
+    padding: 1%;
+} */
+
+.section-black {
+    /* background-color: #000000e2; */
+    background-color: #000000db;
+    min-height: 100vh;
+    /* margin: 1vh auto; */
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin: 1%;
+    flex-basis: 30vw;
+    flex: 1;
+    /* opacity: 90%; */
+    transition: 0.3s;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    padding: 3%
+}
+
+article {
+    flex: 1;
+    margin: 1%;
+    line-height: 2;
+}
+
+
+@media screen and (min-width: 768px) {
+    section {
+        flex-direction: row;
+    }
+
+    #spiral-fig {
+        order: 2;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    figure {
+        flex: 2;
+    }
+
+    article {
+        flex: 1;
+    }
+
+    #arrow {
+        display: block;
+    }
+
+    #swipe {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    figure {
+        flex: 3;
+    }
+
+    article {
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    figure {
+        flex: 3;
+    }
+
+    article {
+        flex: 2;
+    }
+}
+
